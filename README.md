@@ -20,6 +20,8 @@ things that we have defined. I wrote detail to be made at [OBJECTS].
 
 - Virtual Memory
 
+![virtual.png](./image/virtual.png)
+
 Virtual Memory method allows a portion of disk can be used as expanded RAM. This method can expand an usable memory space by
 loading unusing memory block to DISK. If the memory block saved in DISK is needed, it will be loaded to RAM once again and the
 other memory block will be loaded to DISK. 'SSUOS' uses a real memory address by mapping a virtual memory through 'Page Table'
