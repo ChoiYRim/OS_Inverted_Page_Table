@@ -36,7 +36,7 @@ page in SSUOS is 4KB and SSUOS uses a two-level table structure splited into pag
 
 - Inverted Page Table
 
-![Inverted Page Table]/(./image/inverted.png)
+![inverted]/(./image/inverted.png)
 
 Inverted Page Table is a method to solve the problem that the space occupied by the page table increases when many processes
 are created. It always uses an only certain portion of main memory regardless of the number of virtual page. There is one
@@ -46,7 +46,7 @@ multiple virtual addresses can point one entry.
 
 - Level Hash
 
-![Level Hash]/(./image/hash.png)
+![hash]/(./image/hash.png)
 
 Level Hash is a method to improve the memory writing performance. Level Hash consists of 2-level hash table of top level and
 bottom level and top level hash table is 2 times larger than bottom level hash table. Two top level share one bottom level and
